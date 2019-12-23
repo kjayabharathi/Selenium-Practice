@@ -1,13 +1,11 @@
 package com.jaya.framework;
 
+import static org.testng.Assert.assertTrue;
+
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class SampleTestNG {
-
-	@Test(priority = 107)
-	public void close() {
-		System.out.println("F");
-	}
+public class SampleTestNG extends TestBase {
 
 	@Test(priority = 106)
 	public void amountVerify() {
@@ -24,7 +22,7 @@ public class SampleTestNG {
 		System.out.println("click ");
 	}
 
-	@Test( description = "Entering username and password", enabled = false)
+	@Test(description = "Entering username and password", enabled = false)
 	public void enterUserDetails() {
 		System.out.println("enterUserDetails ");
 	}
@@ -37,6 +35,15 @@ public class SampleTestNG {
 	@Test
 	public void checkBlalance() {
 		System.out.println("checkBlalance ");
+
+//		WebElement search = driver.findElement(By.xpath(or.getProperty("googleSearchValue")));
+		WebElement search = driver.findElement(or.getbjectLocator("googleSearchValue"));
+		if (search.isDisplayed()) {
+			assertTrue(true);
+		}
+
+		search.sendKeys("selenium tutorials");
+
 	}
 
 }
