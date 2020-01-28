@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Sample Suite]" parallel="tests">
+  <test thread-count="2" name=" Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.jaya.data.tests.LoginTest">
+        <methods>
+          <include name="beforeSuiteMethod"/>
+          <include name="afterClassMethod"/>
+          <include name="doLogin" invocation-numbers="0 1"/>
+          <include name="aftereTestMethod"/>
+          <include name="beforeClassMethod"/>
+          <include name="beforeTestMethod"/>
+          <include name="afterSuiteMethod"/>
+        </methods>
+      </class> <!-- com.jaya.data.tests.LoginTest -->
+    </classes>
+  </test> <!--  Chrome Test(failed) -->
+</suite> <!-- Failed suite [Sample Suite] -->

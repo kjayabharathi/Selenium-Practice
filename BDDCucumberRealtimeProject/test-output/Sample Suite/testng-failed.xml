@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Sample Suite]" parallel="tests">
+  <test thread-count="2" name=" Chrome Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.jaya.bdd.runner.TestRunner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.jaya.bdd.runner.TestRunner -->
+    </classes>
+  </test> <!--  Chrome Test(failed) -->
+</suite> <!-- Failed suite [Sample Suite] -->
