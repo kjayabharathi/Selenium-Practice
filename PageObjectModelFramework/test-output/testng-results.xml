@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample Suite" duration-ms="8593" started-at="2020-01-20T01:38:58Z" finished-at="2020-01-20T01:39:06Z">
+    <groups>
+    </groups>
+    <test name=" Chrome Test" duration-ms="8593" started-at="2020-01-20T01:38:58Z" finished-at="2020-01-20T01:39:06Z">
+      <class name="com.jaya.tests.LoginTest">
+        <test-method status="PASS" signature="beforeSuiteMethod()[pri:0, instance:com.jaya.tests.LoginTest@5d99c6b5]" name="beforeSuiteMethod" is-config="true" duration-ms="362" started-at="2020-01-20T01:38:57Z" finished-at="2020-01-20T01:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.jaya.tests.LoginTest@5d99c6b5]" name="beforeClassMethod" is-config="true" duration-ms="1" started-at="2020-01-20T01:38:58Z" finished-at="2020-01-20T01:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="enterZipcodeValue()[pri:1, instance:com.jaya.tests.LoginTest@5d99c6b5]" name="enterZipcodeValue" duration-ms="2214" started-at="2020-01-20T01:38:58Z" finished-at="2020-01-20T01:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterZipcodeValue -->
+        <test-method status="PASS" signature="selectSearchResult()[pri:2, instance:com.jaya.tests.LoginTest@5d99c6b5]" name="selectSearchResult" duration-ms="3108" started-at="2020-01-20T01:39:00Z" finished-at="2020-01-20T01:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSearchResult -->
+        <test-method status="PASS" signature="clickContinue()[pri:3, instance:com.jaya.tests.LoginTest@5d99c6b5]" name="clickContinue" duration-ms="3229" started-at="2020-01-20T01:39:03Z" finished-at="2020-01-20T01:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContinue -->
+        <test-method status="PASS" signature="afterClassMethod()[pri:0, instance:com.jaya.tests.LoginTest@5d99c6b5]" name="afterClassMethod" is-config="true" duration-ms="1" started-at="2020-01-20T01:39:06Z" finished-at="2020-01-20T01:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method status="PASS" signature="aftereTestMethod()[pri:0, instance:com.jaya.tests.LoginTest@5d99c6b5]" name="aftereTestMethod" is-config="true" duration-ms="1" started-at="2020-01-20T01:39:06Z" finished-at="2020-01-20T01:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereTestMethod -->
+        <test-method status="PASS" signature="afterSuiteMethod()[pri:0, instance:com.jaya.tests.LoginTest@5d99c6b5]" name="afterSuiteMethod" is-config="true" duration-ms="598" started-at="2020-01-20T01:39:06Z" finished-at="2020-01-20T01:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- com.jaya.tests.LoginTest -->
+    </test> <!--  Chrome Test -->
+  </suite> <!-- Sample Suite -->
+</testng-results>
